@@ -1,0 +1,180 @@
+.wrap {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 300px);
+    margin-top: 50px;
+    margin-left: 300px;
+
+
+}
+
+.text {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'CeraPro';
+    font-size: 14px;
+}
+
+.mainh2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    /* padding-top: 10px; */
+    margin: 30px auto;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    /* height: 40px; */
+}
+
+.navLink {
+    text-align: center;
+    width: 300px;
+    font-size: 16px;
+    margin: 50px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-weight: 900;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.navLinkText {
+    color: black;
+    text-decoration: none;
+
+}
+
+.picturesBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pic {
+    width: 30%;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* 
+.option {
+    text-align: left;
+    width: 230px; */
+
+/* margin: 10px;
+
+} */
+
+/* 
+.price {
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(245, 245, 245);
+
+} */
+
+
+
+
+/* .navLinkText:visited {
+    color: black;
+
+} */
+
+/*.mainh2 {
+   
+
+    margin: 0%;
+    padding-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    height: 40px;
+
+} */
+
+/* 
+.ul1 {
+
+    margin: 0%;
+    padding: 0%;
+    padding-left: 20px;
+    height: 200px;
+
+
+}
+
+.nb {
+
+    padding: 20px;
+    margin: 20px;
+    margin-left: 320px;
+
+} */
+
+@media (max-width: 900px) {
+    /* .mainh2 {
+        padding-top: 10px;
+    } */
+
+    .wrap {
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .text {
+        display: flex;
+        margin: 0 auto;
+        width: 90%;
+
+    }
+
+    .navLink {
+        text-align: center;
+        width: 300px;
+        font-size: 16px;
+        margin: 10px auto;
+    }
+
+
+    /* .option {
+        text-align: left;
+        flex-basis: 70%;
+        justify-content: center;
+        width: 300px;
+        margin: 20px auto;
+
+    } */
+
+    /* .ul1 {
+        height: 150px;
+    } */
+
+    /* .nb {
+        position: relative;
+        display: flex;
+        width: 90%;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+    } */
+}

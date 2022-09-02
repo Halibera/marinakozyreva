@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+@font-face {
+    font-family: "Вaskerville";
+
+    src: url("Baskerville_WGL4_BT_Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+
+.mainWrap {
+    position: absolute;
+    display: flex;
+    left: 300px;
+    width: calc(100% - 300px);
+    height: 80vh;
+
+
+}
+
+.container {
+
+    display: flex;
+    margin-top: 235px;
+    margin-left: 100px;
+    width: 300px;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+
+}
+
+.contacts {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.p1 {
+    font-size: 20px;
+    display: none;
+    padding: 0;
+    padding-bottom: 10px;
+    font-family: "Вaskerville";
+    width: 320px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.p2 {
+    width: 340px;
+    font-size: 20px;
+}
+
+
+.p3 {
+    flex-direction: row;
+    font-size: 20px;
+    padding: 0;
+    margin-top: 70px;
+    padding-bottom: 10px;
+    font-family: "Вaskerville";
+    width: 380px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.section {
+    display: block;
+    outline: 2px solid red;
+}
+
+.button {
+
+    margin: 10px;
+    background: linear-gradient(45deg, white, rgb(250, 208, 208));
+
+}
+
+.input {
+    border: 2px solid rgb(158, 158, 158);
+    opacity: 1;
+    margin-left: 5px;
+}
+
+
+.image {
+
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(158, 158, 158);
+
+}
+
+.form1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons {
+    margin-top: -10px;
+    padding: 0%;
+}
+
+
+
+@media (max-width:900px) {
+
+    .mainWrap {
+        position: relative;
+        display: block;
+        align-items: center;
+
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+        left: 0;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 20px auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+    }
+
+    .section {
+        display: flex;
+        outline: 2px solid red;
+    }
+
+    .image {
+        padding: 0;
+        margin: 50px auto;
+
+
+    }
+
+    .p1 {
+        /* padding-top: 20px; */
+        text-align: center;
+        width: 380px;
+        margin: 0px auto;
+        padding-bottom: 20px;
+        display: block;
+    }
+
+    .p2 {
+
+
+        margin: 25px auto;
+
+    }
+
+    .icons {
+        margin-top: -20px;
+        padding: 0%;
+    }
+
+    .p3 {
+        display: none;
+    }
+}

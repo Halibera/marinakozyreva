@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.content-wrap {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    /* font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif; */
+    /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoothing: grayscale; */
+    font-family: 'Montserrat';
+
+}
+
+/* code {
+    font-family: "Courier New", monospace;
+} */
+
+@font-face {
+    font-family: 'CeraPro';
+    src: local('CeraPro'), url(./CeraPro-Regular.woff2) format('woff2');
+}

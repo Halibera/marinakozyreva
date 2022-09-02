@@ -1,0 +1,171 @@
+.navWrap {
+  width: 300px;
+  height: 80%;
+  background: linear-gradient(to bottom, #f5f5f5, white);
+  position: fixed;
+  top: 200px;
+  text-transform: uppercase;
+  font-family: 'CeraPro';
+  font-size: 12px;
+
+}
+
+
+.burgerImg {
+  display: none;
+  margin: 20px;
+
+}
+
+.menu {
+  padding-left: 50px;
+  text-decoration: none;
+
+}
+
+.a {
+  display: flex;
+  transition: 0.1s;
+  color: rgb(31, 19, 19);
+  margin: 20px;
+  text-decoration: none;
+}
+
+.sub {
+  margin-left: 40px;
+}
+
+.a:hover {
+  font-weight: 600;
+  text-shadow: 0 0 40px black;
+}
+
+.active {
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.b {
+  display: block;
+  transition: 0.3s;
+  color: rgb(0, 0, 0);
+  cursor: default;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.about {
+  text-transform: none;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+p {
+  font-size: 12px;
+  /* font-family: 'CeraPro'; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+hr {
+  width: 200px;
+  height: 1px;
+  border: none;
+  background-color: rgb(139, 139, 139);
+  padding: 0px;
+  margin: 0 20px;
+}
+
+.menuCaptionOff {
+  display: none;
+  margin: 20px;
+}
+
+.menuCaptionOn {
+  display: block;
+  margin: 20px;
+}
+
+@media (max-width : 900px) {
+  .navWrap {
+    display: flex;
+    background: linear-gradient(to right, #f5f5f5, rgb(255, 255, 255));
+    top: 0px;
+    position: relative;
+    width: 100%;
+    /* height: 400px; */
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    z-index: 20;
+  }
+
+  .burgerImg {
+    display: flex;
+    top: 20px;
+    float: right;
+    margin-top: 20px;
+    padding: 0;
+    fill: red;
+    margin-right: 20px;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .menu {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+
+  .burgerSwitchOff {
+    display: none;
+
+  }
+
+  .burgerSwitchOn {
+    display: block;
+
+  }
+
+  .menuCaptionOff {
+    display: none;
+    margin: 20px;
+  }
+
+  .menuCaptionOn {
+    display: block;
+    margin: 20px;
+  }
+}
+
+@media (min-width : 899px) {
+
+  .burgerSwitchOff {
+    display: block;
+
+  }
+
+  .burgerSwitchOn {
+    display: block;
+
+  }
+
+  .menuCaptionOff {
+    display: none;
+
+  }
+
+  .menuCaptionOn {
+    display: none;
+
+  }
+}
